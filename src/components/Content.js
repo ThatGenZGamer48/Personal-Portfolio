@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Content() {
+export default function MainContent() {
     return (
-        <div className="content">
+        <section className="main-content">
             <h1>The content goes here...</h1>
-        </div>
+        </section>
     );
 }
