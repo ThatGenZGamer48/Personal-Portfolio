@@ -1,12 +1,12 @@
 import Navbar from './components/Navbar';
-import Content from './components/Content';
+import MainContent from './components/MainContent';
 import Footer from './components/Footer';
 
 export default function App() {
     return (
         <div className="container">
             <Navbar />
-            <Content />
+            <MainContent />
             <Footer />
         </div>
     );
